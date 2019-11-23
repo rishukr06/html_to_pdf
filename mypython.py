@@ -43,7 +43,7 @@ AWS_ACCESS_KEY_ID =key_id.strip()
 AWS_SECRET_ACCESS_KEY =access_key.strip()
 
 #passing bucket name and connecting to s3
-bucket_name = 'pythonbucket-rk123'
+bucket_name = YOUR_BUCKET_NAME_HERE
 conn = boto.connect_s3(AWS_ACCESS_KEY_ID,
         AWS_SECRET_ACCESS_KEY)
 
