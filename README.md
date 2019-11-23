@@ -3,7 +3,8 @@ html to pdf and upload to s3_bucket
 ==============================================================
 - install python
 - install pip
-- install boto or boto3 
+- pip install pdfkit
+- pip install boto or boto3 
 - install php 
 - Learn little about AWS 
   - IAM Role and policy
